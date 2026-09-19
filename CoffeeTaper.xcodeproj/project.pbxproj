@@ -1,0 +1,303 @@
+// !$*UTF8*$!
+{
+	"archiveVersion" = 1;
+	"classes" = {
+	};
+	"objectVersion" = 56;
+	"objects" = {
+		"8F60702AC53B1FAC3FB753D8" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CoffeeTaper/CoffeeTaperApp.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"2D22BC251C97567670702B96" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "8F60702AC53B1FAC3FB753D8";
+		};
+		"E9FB2F0CDC33F9B91E4DC4B7" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CoffeeTaper/TaperStore.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D40BAD9706CFC815D2711EA2" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "E9FB2F0CDC33F9B91E4DC4B7";
+		};
+		"47920D9B2CEA161E05707412" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CoffeeTaper/ContentView.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"D524735603DBCE256269C329" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "47920D9B2CEA161E05707412";
+		};
+		"86BE5228102BBE430BCEEA46" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "folder.assetcatalog";
+			"path" = "CoffeeTaper/Assets.xcassets";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"AA400DFD4219F700A8EA7668" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "86BE5228102BBE430BCEEA46";
+		};
+		"55E1416B6DC005EC7005C148" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "text.xml";
+			"path" = "CoffeeTaper/PrivacyInfo.xcprivacy";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"1ECEA647854BE794015C1169" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "55E1416B6DC005EC7005C148";
+		};
+		"6BD7758D0942A0122ACDB911" = {
+			"isa" = "PBXFileReference";
+			"lastKnownFileType" = "sourcecode.swift";
+			"path" = "CoffeeTaperTests/TaperStoreTests.swift";
+			"sourceTree" = "SOURCE_ROOT";
+		};
+		"FEB796F1922FB7C90131D455" = {
+			"isa" = "PBXBuildFile";
+			"fileRef" = "6BD7758D0942A0122ACDB911";
+		};
+		"8BCD5BC4CDFDF0918087C782" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.application";
+			"includeInIndex" = 0;
+			"path" = "CoffeeTaper.app";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"F219C0274590DA45E4BEF1EA" = {
+			"isa" = "PBXFileReference";
+			"explicitFileType" = "wrapper.cfbundle";
+			"includeInIndex" = 0;
+			"path" = "CoffeeTaperTests.xctest";
+			"sourceTree" = "BUILT_PRODUCTS_DIR";
+		};
+		"FBDC4F23F93125BBEEAE800C" = {
+			"isa" = "PBXGroup";
+			"children" = ("8BCD5BC4CDFDF0918087C782", "F219C0274590DA45E4BEF1EA");
+			"name" = "Products";
+			"sourceTree" = "<group>";
+		};
+		"B28B7AF69320201D1CF206EB" = {
+			"isa" = "PBXGroup";
+			"children" = ("8F60702AC53B1FAC3FB753D8", "E9FB2F0CDC33F9B91E4DC4B7", "47920D9B2CEA161E05707412", "86BE5228102BBE430BCEEA46", "55E1416B6DC005EC7005C148", "6BD7758D0942A0122ACDB911", "FBDC4F23F93125BBEEAE800C");
+			"sourceTree" = "<group>";
+		};
+		"971ED9D05B25DB6C4D7680D4" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("2D22BC251C97567670702B96", "D40BAD9706CFC815D2711EA2", "D524735603DBCE256269C329");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"364863F9F2E558B0F50473FC" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("AA400DFD4219F700A8EA7668", "1ECEA647854BE794015C1169");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"6E431EB0650617AA1756B320" = {
+			"isa" = "PBXSourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ("FEB796F1922FB7C90131D455");
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"7DED7670B79BEA8B7480B1FC" = {
+			"isa" = "PBXResourcesBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"78AE8C6BEB2A40A6D824CCEE" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"1ABF84E55BD30AC2CEF8FC42" = {
+			"isa" = "PBXFrameworksBuildPhase";
+			"buildActionMask" = 2147483647;
+			"files" = ();
+			"runOnlyForDeploymentPostprocessing" = 0;
+		};
+		"89E1FD6268CC0F221A2BE178" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-Onone";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf";
+				"ENABLE_TESTABILITY" = "YES";
+				"SWIFT_ACTIVE_COMPILATION_CONDITIONS" = "DEBUG";
+			};
+			"name" = "Debug";
+		};
+		"E6DE6C99132752C914FEF632" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"CLANG_ENABLE_MODULES" = "YES";
+				"CLANG_ENABLE_OBJC_ARC" = "YES";
+				"IPHONEOS_DEPLOYMENT_TARGET" = "16.0";
+				"SDKROOT" = "iphoneos";
+				"SWIFT_VERSION" = "5.0";
+				"CODE_SIGN_STYLE" = "Automatic";
+				"SWIFT_OPTIMIZATION_LEVEL" = "-O";
+				"DEBUG_INFORMATION_FORMAT" = "dwarf-with-dsym";
+			};
+			"name" = "Release";
+		};
+		"49EA05A46B1A86EA7E413B43" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("89E1FD6268CC0F221A2BE178", "E6DE6C99132752C914FEF632");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"E9B2E96ABC5F6856F2BE79CF" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.gnutgnut.CoffeeTaper";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Coffee Taper";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SUPPORTS_MACCATALYST" = "NO";
+			};
+			"name" = "Debug";
+		};
+		"5A8C91857F674E16E2724F47" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.gnutgnut.CoffeeTaper";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"INFOPLIST_KEY_CFBundleDisplayName" = "Coffee Taper";
+				"INFOPLIST_KEY_LSApplicationCategoryType" = "public.app-category.lifestyle";
+				"INFOPLIST_KEY_UILaunchScreen_Generation" = "YES";
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation" = "YES";
+				"INFOPLIST_KEY_UISupportedInterfaceOrientations" = "UIInterfaceOrientationPortrait";
+				"ASSETCATALOG_COMPILER_APPICON_NAME" = "AppIcon";
+				"CURRENT_PROJECT_VERSION" = "1";
+				"MARKETING_VERSION" = "1.0";
+				"SUPPORTED_PLATFORMS" = "iphoneos iphonesimulator";
+				"SUPPORTS_MACCATALYST" = "NO";
+			};
+			"name" = "Release";
+		};
+		"8A8642C6B28662881237D956" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("E9B2E96ABC5F6856F2BE79CF", "5A8C91857F674E16E2724F47");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"FCB48D8F88BCDB0ED9FADFD7" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.gnutgnut.CoffeeTaperTests";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/CoffeeTaper.app/CoffeeTaper";
+			};
+			"name" = "Debug";
+		};
+		"942EEBBACD6C88CAE7F29B29" = {
+			"isa" = "XCBuildConfiguration";
+			"buildSettings" = {
+				"PRODUCT_BUNDLE_IDENTIFIER" = "com.gnutgnut.CoffeeTaperTests";
+				"PRODUCT_NAME" = "$(TARGET_NAME)";
+				"TARGETED_DEVICE_FAMILY" = "1";
+				"GENERATE_INFOPLIST_FILE" = "YES";
+				"BUNDLE_LOADER" = "$(TEST_HOST)";
+				"TEST_HOST" = "$(BUILT_PRODUCTS_DIR)/CoffeeTaper.app/CoffeeTaper";
+			};
+			"name" = "Release";
+		};
+		"72C322F0960ECAD6090B486F" = {
+			"isa" = "XCConfigurationList";
+			"buildConfigurations" = ("FCB48D8F88BCDB0ED9FADFD7", "942EEBBACD6C88CAE7F29B29");
+			"defaultConfigurationIsVisible" = 0;
+			"defaultConfigurationName" = "Release";
+		};
+		"D799BAE6088A90139B415FCC" = {
+			"isa" = "PBXContainerItemProxy";
+			"containerPortal" = "98F54143AB4E86B28C3AFEE0";
+			"proxyType" = 1;
+			"remoteGlobalIDString" = "C13732C8E715C9BEE4FA51C9";
+			"remoteInfo" = "CoffeeTaper";
+		};
+		"E9FAD0C6CD43534327C0AF90" = {
+			"isa" = "PBXTargetDependency";
+			"target" = "C13732C8E715C9BEE4FA51C9";
+			"targetProxy" = "D799BAE6088A90139B415FCC";
+		};
+		"C13732C8E715C9BEE4FA51C9" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "8A8642C6B28662881237D956";
+			"buildPhases" = ("971ED9D05B25DB6C4D7680D4", "78AE8C6BEB2A40A6D824CCEE", "364863F9F2E558B0F50473FC");
+			"buildRules" = ();
+			"dependencies" = ();
+			"name" = "CoffeeTaper";
+			"productName" = "CoffeeTaper";
+			"productReference" = "8BCD5BC4CDFDF0918087C782";
+			"productType" = "com.apple.product-type.application";
+		};
+		"64BCB755386F844C96A2A5B0" = {
+			"isa" = "PBXNativeTarget";
+			"buildConfigurationList" = "72C322F0960ECAD6090B486F";
+			"buildPhases" = ("6E431EB0650617AA1756B320", "1ABF84E55BD30AC2CEF8FC42", "7DED7670B79BEA8B7480B1FC");
+			"buildRules" = ();
+			"dependencies" = ("E9FAD0C6CD43534327C0AF90");
+			"name" = "CoffeeTaperTests";
+			"productName" = "CoffeeTaperTests";
+			"productReference" = "F219C0274590DA45E4BEF1EA";
+			"productType" = "com.apple.product-type.bundle.unit-test";
+		};
+		"98F54143AB4E86B28C3AFEE0" = {
+			"isa" = "PBXProject";
+			"attributes" = {
+				"BuildIndependentTargetsInParallel" = "YES";
+				"LastUpgradeCheck" = "1600";
+				"TargetAttributes" = {
+					"C13732C8E715C9BEE4FA51C9" = {
+						"CreatedOnToolsVersion" = "16.0";
+					};
+					"64BCB755386F844C96A2A5B0" = {
+						"CreatedOnToolsVersion" = "16.0";
+						"TestTargetID" = "C13732C8E715C9BEE4FA51C9";
+					};
+				};
+			};
+			"buildConfigurationList" = "49EA05A46B1A86EA7E413B43";
+			"compatibilityVersion" = "Xcode 14.0";
+			"developmentRegion" = "en";
+			"hasScannedForEncodings" = 0;
+			"knownRegions" = ("en", "Base");
+			"mainGroup" = "B28B7AF69320201D1CF206EB";
+			"productRefGroup" = "FBDC4F23F93125BBEEAE800C";
+			"projectDirPath" = "";
+			"projectRoot" = "";
+			"targets" = ("C13732C8E715C9BEE4FA51C9", "64BCB755386F844C96A2A5B0");
+		};
+	};
+	"rootObject" = "98F54143AB4E86B28C3AFEE0";
+}
