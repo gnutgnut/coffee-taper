@@ -42,6 +42,6 @@ CI does not need Apple signing credentials. Signed iPhone builds and automatic T
 
 ## Verification status
 
-Project references, shared scheme, asset metadata, privacy manifest and workflow structure have been checked in the authoring environment. This environment has no Xcode or iOS Simulator, so the app and XCTest suite have **not yet been compiled or run**. The first GitHub Actions run or local Xcode run is the pending build verification.
+The [first GitHub Actions run](https://github.com/gnutgnut/coffee-taper/actions/runs/35426838980) successfully compiled the app, passed all five XCTest tests, and uploaded the simulator app and test results on 19 September 2026. Physical iPhone interaction and VoiceOver testing remain to be done.
 
 Before relying on the app, check on an iPhone: drag through all eighths, close and reopen at ⅞ and zero, leave it overnight, and try VoiceOver adjustment. The saved level should never reset or taper automatically.
